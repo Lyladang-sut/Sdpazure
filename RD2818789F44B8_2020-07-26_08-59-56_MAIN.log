@@ -1,0 +1,29 @@
+2020-07-26T08:59:56 sandboxproc.exe C:\DWASFiles\Sites\sdp-cambodia-staging\Temp\applicationhost.config True True
+2020-07-26T08:59:56 env XPROC_TYPENAME=Microsoft.Web.Hosting.Transformers.ApplicationHost.SiteExtensionHelper, Microsoft.Web.Hosting, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2020-07-26T08:59:56 env XPROC_METHODNAME=Transform
+2020-07-26T08:59:56 Start 'ComposerExtension' site extension transform
+2020-07-26T08:59:57 StartSection Executing Insert (transform line 5, 79)
+2020-07-26T08:59:57 on /configuration/system.applicationHost/sites/site[@name='~1sdp-cambodia-staging']/application
+2020-07-26T08:59:57 Applying to 'site' element (no source line info)
+2020-07-26T08:59:57 Inserted 'application' element
+2020-07-26T08:59:57 EndSection Done executing Insert
+2020-07-26T08:59:57 StartSection Executing InsertIfMissing (transform line 12, 14)
+2020-07-26T08:59:57 on /configuration/system.webServer/runtime
+2020-07-26T08:59:57 Applying to 'system.webServer' element (no source line info)
+2020-07-26T08:59:57 Inserted 'runtime' element
+2020-07-26T08:59:57 EndSection Done executing InsertIfMissing
+2020-07-26T08:59:57 StartSection Executing InsertIfMissing (transform line 19, 14)
+2020-07-26T08:59:57 on /configuration/system.webServer/rewrite
+2020-07-26T08:59:57 Applying to 'system.webServer' element (no source line info)
+2020-07-26T08:59:57 EndSection Done executing InsertIfMissing
+2020-07-26T08:59:57 StartSection Executing InsertIfMissing (transform line 20, 14)
+2020-07-26T08:59:57 on /configuration/system.webServer/rewrite/rules
+2020-07-26T08:59:57 Applying to 'rewrite' element (no source line info)
+2020-07-26T08:59:57 EndSection Done executing InsertIfMissing
+2020-07-26T08:59:57 StartSection Executing InsertIfMissing (transform line 21, 69)
+2020-07-26T08:59:57 on /configuration/system.webServer/rewrite/rules/rule[@name='RequestBlockingRule1']
+2020-07-26T08:59:57 Applying to 'rules' element (no source line info)
+2020-07-26T08:59:57 Inserted 'rule' element
+2020-07-26T08:59:57 EndSection Done executing InsertIfMissing
+2020-07-26T08:59:57 Successful 'D:\home\SiteExtensions\ComposerExtension\applicationHost.xdt' site extension transform
+2020-07-26T08:59:57 sandboxproc.exe complete successfully. Elapsed = 521.00 ms
